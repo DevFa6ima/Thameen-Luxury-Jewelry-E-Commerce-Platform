@@ -108,5 +108,6 @@ This project is a teamwork effort and was developed as part of CIS 423: Web-base
 
 ## 📧 Support
 
-For any questions, feel free to reach out at [📧 F.Alkhomayes@gmail.com](mailto:F.Alkhomayes@gmail.com).
+For any questions, feel free to reach out at [F.Alkhomayes@gmail.com](mailto:F.Alkhomayes@gmail.com).
+
 ---
