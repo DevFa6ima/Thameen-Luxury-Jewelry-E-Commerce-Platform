@@ -86,6 +86,7 @@ Thameen/
 ├── 📁 adminPages/              # Admin panel pages
 ├── 📁 assets/                  # Static assets
 ├── 📁 css/                     # Global styles
+├── 📁 database/                # SQL Database file
 ├── 📁 include/                 # Shared components
 ├── 📁 mainPages/              # Main website pages
 ├── 📁 productsPages/          # Product-related pages
@@ -101,16 +102,11 @@ Thameen/
 - [ ] Implement email notifications
 - [ ] Add inventory management features
 
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Credits
 
-This project was developed as part of CIS 423: Web-based Systems Course Project (Term 2, 2023–2024). Created for educational purposes to demonstrate e-commerce system implementation.
+This project is a teamwork effort and was developed as part of CIS 423: Web-based Systems Course Project (Term 2, 2023–2024). Created for educational purposes to demonstrate e-commerce system implementation.
 
-## 📞 Support
+## 📧 Support
 
-For support, email F.Alkhomayes@gmail.com.
-
+For any questions, feel free to reach out at [📧 F.Alkhomayes@gmail.com](mailto:F.Alkhomayes@gmail.com).
 ---
