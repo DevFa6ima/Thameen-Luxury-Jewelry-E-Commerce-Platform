@@ -1,13 +1,11 @@
 <p align="center">
   <img src="assets/Thameen-Logo/4.png" alt="Thameen Logo" width="200"/>
 </p>
+
 # 🏺 Thameen Luxury Jewelry E-Commerce Platform
 
-![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white)  
-![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white)  
-![Apache](https://img.shields.io/badge/Server-Apache-D22128?logo=apache&logoColor=white)  
-![License](https://img.shields.io/badge/License-MIT-green)  
-![Built With](https://img.shields.io/badge/Built%20With-HTML%2C%20CSS%2C%20JS-blue)
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?logo=php&logoColor=white) ![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?logo=mysql&logoColor=white) ![Apache](https://img.shields.io/badge/Server-Apache-D22128?logo=apache&logoColor=white) ![License](https://img.shields.io/badge/License-MIT-green) ![Built With](https://img.shields.io/badge/Built%20With-HTML%2C%20CSS%2C%20JS-blue)
+
 
 A modern, responsive e-commerce website for luxury jewelry sales, built with PHP and MySQL. This platform provides a complete shopping experience with user authentication, product management, shopping cart functionality, and order processing.
 
