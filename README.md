@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/Thameen-Logo/logo.png" alt="Thameen Logo" width="200"/>
+  <img src="assets/Thameen-Logo/4.png" alt="Thameen Logo" width="200"/>
 </p>
 # 🏺 Thameen Luxury Jewelry E-Commerce Platform
 
