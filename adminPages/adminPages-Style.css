@@ -1,0 +1,116 @@
+/* Admin Pages Specific Styles */
+
+#adminPage-header {
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #e09453;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+#logOutLink {
+  color: #e09453;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+#manageProductTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+#theadOfmanageProductTable,
+#tbodyOfmanageProductTable {
+  border: transparent;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#tbodyOfmanageProductTable {
+  font-size: 13px;
+}
+
+#theadOfmanageProductTable {
+  height: 30px;
+  font-size: 16px;
+}
+
+#LogOut-Text-Position {
+  position: relative;
+  top: 0ex;
+  right: -0.5ex;
+  font-weight: bold;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.container-between-header-footer {
+  font-weight: bold;
+  padding: 50px 20% 50px 20%;
+}
+
+#White-Container {
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#white-Container-head {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.adminForm {
+  display: flex;
+  flex-direction: column;
+  color: #0a4049;
+  height: fit-content;
+  width: fit-content;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+  border-color: #e09453;
+  border-style: ridge;
+  border-width: 4px;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 5px;
+}
+
+.pageImage-container {
+  display: flex;
+  justify-content: center;
+}
+
+#welcomeText {
+  /* WELCOME! admin-Name */
+  font-size: 16px;
+  margin-left: 10px;
+}
+#adminName {
+  color: #e9b383;
+}
+#admin-page-header-text {
+  /* Text: Product Management Panel */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 0px;
+}
+#admin-Header-left-containor {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,49 @@
+/* Login Page Specific Styles */
+
+.login-container {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  border-style: ridge;
+  border-color: #e09453;
+  border-width: 4px;
+  backdrop-filter: blur(10px);
+  flex-wrap: wrap;
+  padding: 20px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.captcha-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10%;
+}
+
+.captcha-display {
+  margin-top: 10px;
+  box-shadow: 5px 5px 5px 5px gray;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-style: italic;
+  font-size: x-large;
+  border: 2px solid red;
+  text-decoration: line-through;
+  margin-bottom: 10%;
+}

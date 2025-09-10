@@ -1,0 +1,20 @@
+/* Process Order Specific Styles */
+
+.order-details {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: var(--shadow-medium);
+  border-style: ridge;
+  border-width: 4px;
+  border-color: var(--secondary-color);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+}
+.order-details li {
+  color: var(--primary-color); /* or any other color you prefer */
+  margin-bottom: 5px;
+}
+.order-details p {
+  margin: 5px 0;
+}

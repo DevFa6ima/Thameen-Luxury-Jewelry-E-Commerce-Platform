@@ -1,0 +1,82 @@
+/* Home Page Specific Styles */
+
+#slider {
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  right: 0;
+  animation: 15s slider infinite;
+}
+#slider figure img {
+  float: left;
+  width: 20%;
+}
+
+@keyframes slider {
+  0% {
+    right: 0;
+  }
+  20% {
+    right: 0;
+  }
+  35% {
+    right: 100%;
+  }
+  40% {
+    right: 100%;
+  }
+  55% {
+    right: 200%;
+  }
+  65% {
+    right: 200%;
+  }
+}
+.shop-now h1 {
+  text-align: center;
+  margin-right: 50px;
+  color: white;
+  font-weight: lighter;
+  margin-bottom: 30px;
+}
+.shop-now {
+  background-color: #e09453;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-us {
+  text-align: center;
+  border-width: 4px;
+  border-style: ridge;
+  border-color: #e09453;
+  border-radius: 10px;
+  margin: 100px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  text-align: left;
+  font-size: 40px;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+
+.about-us p {
+  text-align: left;
+  text-align: justify;
+  margin-right: 50px;
+  margin-bottom: 25px;
+  margin-left: 100px;
+  color: #216974;
+  font-weight: bold;
+  font-size: 24px;
+}

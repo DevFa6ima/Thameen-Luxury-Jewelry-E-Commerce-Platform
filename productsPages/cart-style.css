@@ -1,0 +1,81 @@
+/* Cart Page Specific Styles */
+
+body {
+  position: relative;
+}
+
+h1 {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.cart-items {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.product-details {
+  width: 45%;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.product-details img {
+  border-radius: 5px;
+  margin-inline: 160px;
+  margin-bottom: 20px;
+}
+
+.product-info {
+  padding: 0 10px;
+}
+
+.product-details h2 {
+  margin-bottom: 10px;
+}
+
+.product-info p {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.total-section {
+  margin-bottom: 30vh;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  background-color: #e09453;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(5, 5, 5, 0.1);
+  text-align: center;
+}
+
+.total-section h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product-info input[type="number"] {
+  width: 50px;
+  height: 33px;
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.quantity-update-form {
+  display: flex;
+  justify-content: center;
+}

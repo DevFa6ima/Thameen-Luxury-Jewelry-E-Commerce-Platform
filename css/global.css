@@ -1,0 +1,458 @@
+/* ========================================
+   GLOBAL STYLES - Thameen Project
+   Common styles used across all pages
+   ======================================== */
+
+/* CSS Variables */
+:root {
+  --primary-color: #0a4049;
+  --secondary-color: #e09453;
+  --primary-hover-color: #216974;
+  --secondary-hover-color: #e09553b9;
+  --background-color: #f5f5f5;
+  --white: #fff;
+  --text-color: #333;
+  --border-color: #ccc;
+  --shadow-light: 0 2px 4px rgba(0, 0, 0, 0.1);
+  --shadow-medium: 0 0 10px rgba(0, 0, 0, 0.1);
+  --shadow-heavy: 15px 15px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", sans-serif;
+}
+
+body {
+  font-family: "Merriweather", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+/* Typography */
+h1,
+h2 {
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--secondary-color);
+}
+
+p {
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+/* Header Styles */
+header {
+  background-color: var(--primary-color);
+  color: var(--white);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+/* Navigation Styles */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+  font-size: 16px;
+}
+
+nav ul li a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: white;
+  font-weight: bolder;
+}
+
+/* Logo Styles */
+.logo img {
+  max-height: 50px;
+}
+
+/* Container Styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  flex: 1;
+  padding: 20px 0;
+}
+
+.container-between-header-footer {
+  background-color: var(--white);
+  align-items: center;
+  padding: 30px 10% 30px 10%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Form Styles */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-style: none;
+  box-shadow: var(--shadow-light);
+}
+
+/* Unified Button Styles */
+.btn-primary,
+.btn-secondary {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  transition: background-color 0.3s ease;
+  color: var(--white);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  margin: 5px;
+}
+
+/* Primary Button - Dark Teal (like Edit/Delete) */
+.btn-primary {
+  background-color: var(--primary-color);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-hover-color);
+  font-weight: bold;
+}
+
+/* Secondary Button - Orange (like Add Product) */
+.btn-secondary {
+  background-color: var(--secondary-color);
+}
+
+.btn-secondary:hover {
+  background-color: var(--secondary-hover-color);
+  font-weight: bold;
+}
+
+/* Card/Box Styles */
+.cart-summary,
+.checkout-form,
+.feedback-form,
+.visit-us,
+.about-us,
+.adminForm,
+#White-Container {
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: var(--shadow-medium);
+  border-style: ridge;
+  border-width: 4px;
+  border-color: var(--secondary-color);
+  padding: 20px;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+
+/* Table Styles */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: transparent;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+th,
+td {
+  border: transparent;
+  padding: 5px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+th {
+  background-color: var(--secondary-color);
+  color: var(--white);
+  height: 30px;
+  font-size: 16px;
+}
+
+td {
+  color: var(--primary-color);
+  font-size: 14px;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+/* Border Radius Utilities */
+.tobLeftRedius,
+.tobLeftRedius-ProductTable {
+  border-top-left-radius: 5px;
+}
+
+.tobRightRedius,
+.tobRightRedius-ProductTable {
+  border-top-right-radius: 5px;
+}
+
+/* Input Group Styles */
+.input-group {
+  margin-bottom: 30px;
+}
+
+.input-group label {
+  color: var(--primary-color);
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.input-group input {
+  box-shadow: var(--shadow-heavy);
+  width: 300px;
+  padding: 8px;
+  border-style: none;
+  border-radius: 8px;
+}
+
+/* Group Styles */
+.group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.group label {
+  font-weight: bold;
+  color: var(--primary-color);
+  margin-right: 15px;
+  margin-left: 25px;
+  margin-top: 15px;
+}
+
+.group textarea,
+.group input[type="email"],
+.group input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  color: #888;
+  max-width: 250px;
+  margin-top: 8px;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: white;
+  font-weight: bolder;
+}
+
+/* Footer Styles */
+body {
+  background-color: #fff;
+}
+
+footer {
+  background-color: #0a4049;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+footer p {
+  color: #e09453;
+  margin: 0;
+}
+
+/* Utility Classes */
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-total {
+  color: #216974;
+}
+
+.table-margin {
+  margin-bottom: 30px;
+}
+
+.total-cell {
+  text-align: center;
+  background-color: #5e544c1c;
+}
+
+.center-margin {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
+
+.form-reset {
+  all: initial;
+}
+
+.button-center {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Form Actions */
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Admin Page Button Container */
+.admin-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.admin-actions .btn-primary {
+  min-width: 100px;
+  width: auto;
+}
+
+/* Search Input */
+.searchInput-AdminPage {
+  border: 0px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
+  height: 27px;
+  font-size: 16px;
+}
+
+/* Admin Form Input */
+.adminforminput {
+  height: 18px;
+  width: 23em;
+  color: #000000;
+}
+
+.adminformlabel {
+  font-weight: bold;
+  font-size: 16px;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.adminforminput,
+.edit-Add-page-textarea {
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.1);
+  margin-bottom: 5px;
+  color: #000000;
+}
+
+/* Error Message */
+.error-message {
+  position: relative;
+  margin: 5px;
+  padding: 20px;
+  border: 1px solid #dc3545;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  width: auto;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.error-message img {
+  margin-right: 10px;
+}
+
+.error-message .close-button {
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  font-size: 24px;
+  line-height: 1;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  color: #000000;
+  margin-left: auto;
+}

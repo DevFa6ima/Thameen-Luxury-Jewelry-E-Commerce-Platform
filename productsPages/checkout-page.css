@@ -1,0 +1,15 @@
+/* Checkout Page Specific Styles */
+
+.cart-summary,
+.checkout-form {
+  width: 60%;
+}
+
+.checkout-form {
+  margin-top: 20px;
+  margin-bottom: 50vh;
+}
+
+.cart-summary {
+  margin: 20px auto;
+}

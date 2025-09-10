@@ -1,0 +1,23 @@
+/* Navigation Pages Specific Styles */
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1300px;
+  margin: auto;
+  flex: 1;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+.visit-us {
+  text-align: center;
+}
+.visit-us iframe {
+  width: 80%;
+  height: 400px;
+  cursor: pointer;
+}
